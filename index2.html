@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        form input{
+            margin-bottom: 20px;
+        }
+        textarea{
+            margin-bottom: 20px;
+        }
+        h1{
+            text-align: center;
+        }
+        button{
+            width:80px;
+            margin: auto;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Əlaqə Forması</h1>
+    <form>
+        <label for="name">Ad:</label>
+        <input type="text" id="name" placeholder="First" required>
+        <label for="email">Poçt:</label>
+        <input type="email" required id="email" >
+        <label for="message">Şərhiniz</label>
+        <textarea id="message" required placeholder="Buraya yazın..."></textarea>
+        <button type="submit">Göndər</button>
+    </form>
+</body>
+</html>
